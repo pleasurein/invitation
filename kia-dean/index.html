@@ -150,7 +150,6 @@ body{
 // ======================
 const params = new URLSearchParams(window.location.search);
 const guest = params.get("to");
-
 if(guest){
   document.getElementById("guestName").innerText =
     decodeURIComponent(inv.replace(/\+/g," "));
